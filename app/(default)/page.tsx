@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Home - Simple",
+  title: "Increase Revenue through Digital Marketing - Brand",
   description: "Page description",
 };
 
