@@ -65,23 +65,22 @@ export default function HeroHome() {
                 />
               </div>
             </div>
-            <h1
+            <h2
               className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1] md:text-6xl"
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              The website builder you're <br className="max-lg:hidden" />
-              looking for
-            </h1>
+              Grow your business with <br className="max-lg:hidden" />
+              powerful digital solutions
+            </h2>
             <div className="mx-auto max-w-3xl">
-              <p
+              <h1
                 className="mb-8 text-lg text-gray-700"
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                Simple is a modern website builder powered by AI that changes
-                how companies create user interfaces together.
-              </p>
+              We help <span className="font-semibold text-black">____</span> generate more revenue through <span className="font-semibold text-black">high-quality websites</span>, <span className="font-semibold text-black">SEO</span>, and <span className="font-semibold text-black">PPC</span> (paid ads).
+              </h1>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]">
                 <div
                   className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
