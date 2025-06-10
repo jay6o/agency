@@ -20,15 +20,15 @@ export default function DefaultLayout({
       duration: 700,
       easing: "ease-out-cubic",
     });
-  });
+  }, []);
 
   return (
-    <>
+    <div>
       <Header />
 
       <main className="grow">{children}</main>
 
       <Footer border={true} />
-    </>
+    </div>
   );
 }

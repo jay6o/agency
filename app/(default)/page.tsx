@@ -4,19 +4,21 @@ export const metadata = {
 };
 
 import Hero from "@/components/hero-home";
-import BusinessCategories from "@/components/business-categories";
-import FeaturesPlanet from "@/components/features-planet";
-import LargeTestimonial from "@/components/large-testimonial";
+import Services from "@/components/services";
+import HowItWorks from "@/components/how-it-works";
 import Cta from "@/components/cta";
+import Cta2 from "@/components/cta2";
+import CalendlyForm from "@/components/calendly-form";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <BusinessCategories />
-      <FeaturesPlanet />
-      <LargeTestimonial />
       <Cta />
+      <Services />
+      <Cta2 />
+      <HowItWorks />
+      <CalendlyForm />
     </>
   );
 }
