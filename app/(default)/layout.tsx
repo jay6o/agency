@@ -1,5 +1,4 @@
 "use client";
-import Head from "next/head";
 import { useEffect } from "react";
 
 import AOS from "aos";
@@ -16,7 +15,6 @@ export default function DefaultLayout({
   useEffect(() => {
     AOS.init({
       once: true,
-      disable: "phone",
       duration: 700,
       easing: "ease-out-cubic",
     });
