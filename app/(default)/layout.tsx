@@ -14,7 +14,7 @@ export default function DefaultLayout({
 }) {
   useEffect(() => {
     AOS.init({
-      once: true,
+      once: false,
       duration: 700,
       disable: false,
       easing: "ease-out-cubic",

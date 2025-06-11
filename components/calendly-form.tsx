@@ -1,11 +1,15 @@
 'use client';
 import { useEffect } from "react";
+import AOS from "aos";
 
 export default function CalendlyForm() {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://assets.calendly.com/assets/external/widget.js";
     script.async = true;
+    script.onload = () => {
+      AOS.refresh();
+    };
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);
