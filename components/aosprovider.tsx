@@ -22,12 +22,6 @@ export default function AosProvider() {
       AOS.refresh();
     };
 
-    // Initial refresh
-    setTimeout(refreshAOS, 100);
-    
-    // Additional refresh after page load
-    setTimeout(refreshAOS, 500);
-    
     // Refresh on window resize (mobile orientation change)
     const handleResize = () => {
       setTimeout(refreshAOS, 150);

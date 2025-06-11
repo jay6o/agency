@@ -325,6 +325,9 @@
   }
 }
 
+.no-aos-transition {
+  transition: none !important;
+}
 
 @keyframes zoom-out {
   from {

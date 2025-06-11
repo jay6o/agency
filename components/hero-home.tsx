@@ -12,34 +12,22 @@ export default function HeroHome() {
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
             <h2
-              className="mb-6 border-slate-300/80 text-5xl font-bold md:text-6xl animate-zoom-out animation-delay-300"
               style={{ opacity: 0 }}
-              /*data-aos="zoom-y-out"
-              data-aos-delay={150}
-              data-aos-anchor-placement="top-bottom"
-              data-aos-offset="0"*/
+              className="mb-6 border-slate-300/80 text-5xl font-bold md:text-6xl animate-zoom-out animation-delay-300 no-aos-transition"
             >
               Grow your business with <br className="max-lg:hidden" />
               powerful digital solutions
             </h2>
             <div className="mx-auto max-w-3xl">
               <h1
-                className="mb-8 text-lg text-gray-700 animate-zoom-out animation-delay-600"
                 style={{ opacity: 0 }}
-                /*data-aos="zoom-y-out"
-                data-aos-delay={300}
-                data-aos-anchor-placement="top-bottom"
-                data-aos-offset="0"*/
+                className="mb-8 text-lg text-gray-700 animate-zoom-out animation-delay-600 no-aos-transition"
               >
               We help local businesses generate more revenue through <span className="font-semibold text-black">high-quality websites</span>, <span className="font-semibold text-black">SEO</span>, and <span className="font-semibold text-black">paid ads</span>.
               </h1>
               <div className="relative before:absolute before:inset-0">
                 <div
-                  className="mx-auto max-w-xs sm:flex-col sm:max-w-none sm:justify-center sm:items-center animate-zoom-out animation-delay-900"
-                  /*data-aos="zoom-y-out"
-                  data-aos-delay={450}
-                  data-aos-anchor-placement="top-bottom"
-                  data-aos-offset="0"*/
+                  className="mx-auto max-w-xs sm:flex-col sm:max-w-none sm:justify-center sm:items-center animate-zoom-out animation-delay-900 no-aos-transition"
                 >
                   <Link
                     className="btn group mb-4 w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
