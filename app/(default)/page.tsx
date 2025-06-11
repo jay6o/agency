@@ -19,6 +19,7 @@ export const metadata = {
   },
 };
 
+import AOSProvider from "@/components/aosprovider";
 import Hero from "@/components/hero-home";
 import Services from "@/components/services";
 import HowItWorks from "@/components/how-it-works";
@@ -29,6 +30,7 @@ import CalendlyForm from "@/components/calendly-form";
 export default function Home() {
   return (
     <>
+      <AOSProvider />
       <Hero />
       <Cta />
       <Services />
