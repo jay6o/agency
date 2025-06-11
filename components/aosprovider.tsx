@@ -12,8 +12,8 @@ export default function AosProvider() {
       easing: "ease-out-cubic",
     });
     setTimeout(() => {
-      AOS.refresh();
-    }, 100);
+      AOS.refreshHard();
+    }, 400);
   }, []);
 
   return null;
