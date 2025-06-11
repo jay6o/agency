@@ -1,24 +1,24 @@
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 import PageIllustration from "@/components/page-illustration";
 import ChevronDownIcon from "@heroicons/react/24/outline/ChevronDownIcon";
 
 export default function HeroHome() {
   return (
-    <section className="relative">
+    <section className="relative h-[100vh] md:h-auto">
       <PageIllustration />
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+      <div className="mx-auto max-w-[90%] md:max-w-[70%] lg:max-w-[60%] px-4 sm:px-6">
         {/* Hero content */}
         <div className="pb-12 pt-32 md:pb-20 md:pt-40">
           {/* Section header */}
-          <div className="pb-12 text-center md:pb-16">
+          <div className="pb-12 md:text-center md:pb-16">
             <h2
               style={{ opacity: 0 }}
               className="mb-6 border-slate-300/80 text-5xl font-bold md:text-6xl animate-zoom-out animation-delay-300 no-aos-transition"
             >
-              Grow your business with <br className="max-lg:hidden" />
-              powerful digital solutions
+              Grow your business through tech
             </h2>
-            <div className="mx-auto max-w-3xl">
+            <div className="mx-auto max-w-2xl">
               <h1
                 style={{ opacity: 0 }}
                 className="mb-8 text-lg text-gray-700 animate-zoom-out animation-delay-600 no-aos-transition"
@@ -30,24 +30,20 @@ export default function HeroHome() {
                   className="mx-auto max-w-xs sm:flex-col sm:max-w-none sm:justify-center sm:items-center animate-zoom-out animation-delay-900 no-aos-transition"
                 >
                   <Link
-                    className="btn group mb-4 w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                     href="/#contact"
                   >
-                    <span className="relative inline-flex items-center">
-                      Get Started{" "}
-                      <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
-                        -&gt;
-                      </span>
-                    </span>
+                    <Button variant={"default"} className="w-[100%] md:w-[36%] py-6 text-lg font-semibold text-white transition-colors duration-300 hover:cursor-pointer group bg-black shadow-2xl rounded-3xl active:bg-black/80 mt-[1rem]">
+                      Get Started <span className="ml-1 tracking-normal text-white transition-transform group-hover:translate-x-0.5">&rarr;</span>
+                    </Button>
                   </Link>
-                  <div className="md:hidden absolute bottom-[-4rem] left-[49%] -translate-x-1/2 animate-bounce text-gray-400">
-                    <ChevronDownIcon className="w-8 h-8" />
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div className="md:hidden absolute bottom-[3rem] left-[49%] -translate-x-1/2 animate-bounce text-gray-400">
+        <ChevronDownIcon className="w-8 h-8" />
       </div>
     </section>
   );

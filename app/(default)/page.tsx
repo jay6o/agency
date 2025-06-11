@@ -30,11 +30,11 @@ import CalendlyForm from "@/components/calendly-form";
 export default function Home() {
   return (
     <>
-      <Hero />
       <AOSProvider />
-      <Cta />
-      <Services />
+      <Hero />
       <Cta2 />
+      <Services />
+      <Cta />
       <HowItWorks />
       <CalendlyForm />
     </>

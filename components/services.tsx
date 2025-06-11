@@ -31,14 +31,14 @@ const features = [
 
 export default function Services() {
   return (
-    <section className="bg-transparent py-24 sm:py-32" id="services" data-aos="fade-down" data-aos-offset="0" data-aos-anchor-placement="center-bottom" data-aos-duration="700">
+    <section className="bg-transparent py-14 sm:py-32" id="services" data-aos="fade-down" data-aos-duration="700" data-aos-anchor-placement="top-center">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
             Put yourself out there 😉
           </p>
           <p className="mt-6 text-lg/8 text-gray-600 lg:text-xl">
-            We help you establish a brand image that outward facing customers can trust, and are willing to partner with.
+            We help you establish a brand image that customers can trust, and want to partner with.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
