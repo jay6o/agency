@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import Logo from '@/components/ui/logo'
 import {
   Dialog,
   DialogPanel,
@@ -43,10 +42,9 @@ export default function Header() {
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
         </div>
-        <div className="flex lg:hidden">
+        <div className="flex lg:hidden" onClick={() => setMobileMenuOpen(true)}>
           <button
             type="button"
-            onClick={() => setMobileMenuOpen(true)}
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
           >
             <span className="sr-only">Open main menu</span>
@@ -111,8 +109,7 @@ export default function Header() {
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
         <div className="fixed inset-0 z-50" />
         <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div className="flex items-center justify-between">
-            <Logo/>
+          <div className="flex items-center justify-end">
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}

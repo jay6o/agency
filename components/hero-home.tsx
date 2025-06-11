@@ -51,7 +51,7 @@ export default function HeroHome() {
                     </span>
                   </Link>
                   <div className="md:hidden absolute bottom-[-4rem] left-[49%] -translate-x-1/2 animate-bounce text-gray-400">
-                    <ChevronDownIcon className="w-6 h-6" />
+                    <ChevronDownIcon className="w-8 h-8" />
                   </div>
                 </div>
               </div>
