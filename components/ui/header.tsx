@@ -42,7 +42,6 @@ export default function Header() {
     <header className="absolute top-0 inset-x-0 z-50 bg-transparent transition-all duration-500 ease-in-out">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
-        <Logo/>
         </div>
         <div className="flex lg:hidden">
           <button

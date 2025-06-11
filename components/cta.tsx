@@ -28,11 +28,11 @@ export default function Cta() {
               Be there for customers when they need you
             </h2>
             <p className="mt-6 text-lg/8 text-pretty text-gray-300">
-              Customers are always looking for you, but can never find you. We help you reach them by giving you an online presence that stands out.
+              Customers are always looking for you, but can never find you. We help them reach you by giving you an online presence that stands out.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <Link
-                href="#"
+                href="/#contact"
                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
                 Get started

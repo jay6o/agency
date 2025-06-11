@@ -1,6 +1,22 @@
 export const metadata = {
-  title: "Increase Revenue through Digital Marketing - Brand",
-  description: "Page description",
+  title: "Attila Digital - Digital Marketing Agency",
+  description: "Increase Revenue from your business through Digital Marketing. High-quality Web Development, SEO, and paid ads to scale your business.",
+  openGraph: {
+    title: "Attila Digital - Digital Marketing Agency",
+    description: "High-quality Web Development, SEO, and paid ads to scale your business.",
+    url: "https://agency-itde.vercel.app/",
+    siteName: "Attila Digital",
+    images: [
+      {
+        url: "https://agency-itde.vercel.app/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Attila Digital - Digital Marketing Agency",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 import Hero from "@/components/hero-home";
