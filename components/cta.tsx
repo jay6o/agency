@@ -4,7 +4,7 @@ import ppc from "@/public/images/ppc.png";
 
 export default function Cta() {
   return (
-    <section className="bg-transparent" data-aos="fade-up" data-aos-delay={800}>
+    <section className="bg-transparent" data-aos="fade-up">
       <div className="mx-auto max-w-7xl py-6 lg:px-8">
         <div className="relative isolate overflow-hidden bg-gray-700 px-6 pt-16 shadow-sm md:shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0"
         style={{
