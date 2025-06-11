@@ -12,7 +12,7 @@ export default function HeroHome() {
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
             <h2
-              className="mb-6 border-y border-slate-300/80 text-5xl font-bold md:text-6xl"
+              className="mb-6 border-y border-slate-300/80 text-5xl font-bold md:text-6xl animate-zoom-out animation-delay-100"
               /*data-aos="zoom-y-out"
               data-aos-delay={150}
               data-aos-anchor-placement="top-bottom"
@@ -23,7 +23,7 @@ export default function HeroHome() {
             </h2>
             <div className="mx-auto max-w-3xl">
               <h1
-                className="mb-8 text-lg text-gray-700"
+                className="mb-8 text-lg text-gray-700 animate-zoom-out animation-delay-300"
                 /*data-aos="zoom-y-out"
                 data-aos-delay={300}
                 data-aos-anchor-placement="top-bottom"

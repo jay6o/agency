@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import PageIllustration from "@/components/page-illustration";
 
 export const metadata: Metadata = {
-	title: "Privacy Policy | SoftByte",
-	description: "SoftByte is a leading agency in the software and web development space, as well as the social media and digital marketing space."
+	title: "Privacy Policy | Attila Digital",
+	description: "Attila Digital is a leading agency in the software and web development space, as well as the social media and digital marketing space."
 };
 
 export default function Privacy() {
@@ -15,7 +14,7 @@ export default function Privacy() {
 					<h1 className="text-3xl font-bold text-center py-12">Privacy Policy</h1>
 					<p className="py-2">Last updated: 03/19/2025</p>
 					<div className="overview py-4">
-						<p className="py-2">This Privacy Policy describes how SoftByte (the &quot;Site&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) collects, uses, and discloses your personal information when you visit, use our
+						<p className="py-2">This Privacy Policy describes how Attila Digital (the &quot;Site&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) collects, uses, and discloses your personal information when you visit, use our
 							services, or make a purchase from www.website.com (the &quot;Site&quot;) or otherwise communicate with us (collectively, the &quot;Services&quot;). For purposes of this
 							Privacy Policy, &quot;you&quot; and &quot;your&quot; means you as the user of the Services, whether you are a customer, website visitor, or another individual whose
 							information we have collected pursuant to this Privacy Policy.</p>
