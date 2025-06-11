@@ -42,7 +42,7 @@ export default function HeroHome() {
           </div>
         </div>
       </div>
-      <div className="md:hidden absolute bottom-[25vh] left-[49%] -translate-x-1/2 animate-bounce text-gray-400">
+      <div className="md:hidden absolute bottom-[15vh] left-[49%] -translate-x-1/2 animate-bounce text-gray-400">
         <ChevronDownIcon className="w-8 h-8" />
       </div>
     </section>
