@@ -338,7 +338,7 @@
 }
 
 .animate-zoom-out {
-  animation: zoom-out 2s ease-out both;
+  animation: zoom-out 1.6s ease-out both;
 
   will-change: transform, opacity; 
 }
@@ -351,3 +351,6 @@
   animation-delay: 600ms;
 }
 
+.animation-delay-900 {
+  animation-delay: 900ms;
+}
