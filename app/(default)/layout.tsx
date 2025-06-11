@@ -16,8 +16,10 @@ export default function DefaultLayout({
     AOS.init({
       once: true,
       duration: 700,
+      disable: false,
       easing: "ease-out-cubic",
     });
+    AOS.refresh();
   }, []);
 
   return (
