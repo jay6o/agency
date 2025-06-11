@@ -12,7 +12,7 @@ export default function HeroHome() {
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
             <h2
-              className="mb-6 border-y border-slate-300/80 text-5xl font-bold md:text-6xl animate-zoom-out animation-delay-100"
+              className="mb-6  border-slate-300/80 text-5xl font-bold md:text-6xl animate-zoom-out animation-delay-100"
               /*data-aos="zoom-y-out"
               data-aos-delay={150}
               data-aos-anchor-placement="top-bottom"
