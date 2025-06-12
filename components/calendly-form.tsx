@@ -9,6 +9,17 @@ export default function CalendlyForm() {
     script.async = true;
     script.onload = () => {
       AOS.refresh();
+
+      const interval = setInterval(() => {
+      const iframe = document.querySelector<HTMLIFrameElement>('.calendly-inline-widget iframe');
+        if (iframe) {
+          iframe.style.overflow = 'hidden';
+          iframe.style.border = 'none';
+          iframe.style.scrollbarWidth = 'none';
+          iframe.setAttribute('scrolling', 'no'); // important
+          clearInterval(interval);
+        }
+      }, 100);
     };
     document.body.appendChild(script);
     return () => {
