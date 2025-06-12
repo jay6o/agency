@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Calendar } from "lucide-react"
-import CalendlyForm from "@/components/calendly-form.tsx"
+import CalendlyForm from "@/components/calendly-form"
 
 export default function ContactPage() {
   return (
