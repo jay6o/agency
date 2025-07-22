@@ -50,7 +50,7 @@ export default function Header() {
               scrolled ? "text-foreground" : "text-white"
             )}
           >
-            <span className="text-primary text-2xl">LOGOHERE</span>
+            <span className="text-primary text-2xl">Breave</span>
           </span>
         </Link>
 
