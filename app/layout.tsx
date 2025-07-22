@@ -1,3 +1,4 @@
+const withMT = require("@material-tailwind/react/utils/withMT")
 import "./css/style.css";
 import { Inter } from "next/font/google";
 

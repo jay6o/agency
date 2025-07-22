@@ -30,7 +30,7 @@ export default function HeroHome() {
                   className="mx-auto max-w-xs sm:flex-col sm:max-w-none sm:justify-center sm:items-center animate-zoom-out animation-delay-900 no-aos-transition"
                 >
                   <Link
-                    href="/#contact"
+                    href="/contact"
                   >
                     <Button variant={"default"} className="w-[100%] md:w-[36%] py-6 text-lg font-semibold text-white transition-colors duration-300 hover:cursor-pointer group bg-black shadow-2xl rounded-3xl active:bg-black/80 mt-[1rem]">
                       Get Started <span className="ml-1 tracking-normal text-white transition-transform group-hover:translate-x-0.5">&rarr;</span>

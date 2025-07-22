@@ -25,7 +25,7 @@ export default function Cta2() {
         <span className="text-gray-700 text-lg text-align-left md:text-xl lg:w-[80%]">
           We build our websites using cutting edge technologies and custom code, so that you stand out from your competitors and your customers know you mean business.
         </span>
-        <Link href="/#contact" className="mt-8">
+        <Link href="/contact" className="mt-8">
           <Button className="py-6 hover:cursor-pointer text-white font-semibold md:text-base active:bg-black/70">Get Started</Button>
         </Link>
       </div>

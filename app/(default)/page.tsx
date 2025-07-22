@@ -25,7 +25,7 @@ import Services from "@/components/services";
 import HowItWorks from "@/components/how-it-works";
 import Cta from "@/components/cta";
 import Cta2 from "@/components/cta2";
-import CalendlyForm from "@/components/calendly-form";
+import TypeForm from "@/components/type-form"; // takes up whole screen
 
 export default function Home() {
   return (
@@ -36,7 +36,6 @@ export default function Home() {
       <Services />
       <Cta />
       <HowItWorks />
-      <CalendlyForm />
     </>
   );
-}
+};

@@ -2,21 +2,23 @@
 import { useEffect } from "react";
 import AOS from "aos";
 
-export default function CalendlyForm() {
+export default function TypeForm() {
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "https://assets.calendly.com/assets/external/widget.js";
+    script.src = "//embed.typeform.com/next/embed.js";
     script.async = true;
     script.onload = () => {
       AOS.refresh();
 
       const interval = setInterval(() => {
-      const iframe = document.querySelector<HTMLIFrameElement>('.calendly-inline-widget iframe');
+      const iframe = document.querySelector<HTMLIFrameElement>('.typeform-inline-widget iframe');
         if (iframe) {
           iframe.style.overflow = 'hidden';
           iframe.style.border = 'none';
           iframe.style.scrollbarWidth = 'none';
           iframe.setAttribute('scrolling', 'no'); // important
+          iframe.setAttribute("height", "100%");
+          iframe.setAttribute("width", "100%");
           clearInterval(interval);
         }
       }, 100);
@@ -29,10 +31,9 @@ export default function CalendlyForm() {
 
   return (
     <section
-      className="calendly-inline-widget"
+      className="typeform-inline-widget w-screen h-screen overflow-hidden"
       id="contact"
-      data-url="https://calendly.com/d/cssy-c3t-wvx?text_color=000000"
-      style={{ minWidth: "320px", height: "700px" }}
+      data-tf-live="01JXZHKGRG3AZET4TYR3A8FANW"
     />
   );
 }
