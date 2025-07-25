@@ -7,7 +7,7 @@ export default function HeroHome() {
   return (
     <section className="relative h-[100vh] md:h-auto">
       <PageIllustration />
-      <div className="mx-auto max-w-[90%] md:max-w-[70%] lg:max-w-[60%] px-4 sm:px-6 pt-[5.6rem] lg:pt-[3rem]">
+      <div className="mx-auto max-w-[90%] md:max-w-[70%] lg:max-w-[60%] px-4 sm:px-6 pt-[4.4rem] lg:pt-[3rem]">
         {/* Hero content */}
         <div className="pb-12 pt-32 md:pb-20 md:pt-40">
           {/* Section header */}
